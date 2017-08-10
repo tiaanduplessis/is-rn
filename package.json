@@ -1,0 +1,40 @@
+{
+  "name": "is-rn",
+  "version": "1.0.0",
+  "description": "Detect if running in React Native",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/is-rn",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/is-rn",
+  "bugs": "https://github.com/tiaanduplessis/is-rn",
+  "main": "dist/is-rn.js",
+  "browser": "dist/is-rn.js",
+  "jsnext:main": "dist/is-rn.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard 'src/**/*.js'",
+    "build": "bili --format es --format umd --compress",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "prepublish": "npm run build",
+    "pretest": "npm run format"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "babel": {
+    "presets": [
+      ["env"]
+    ]
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "husky": "^0.14.3",
+    "babel-preset-env": "^1.6.0",
+    "bili": "^0.17.3",
+    "prettier-standard": "^6.0.0"
+  }
+}
