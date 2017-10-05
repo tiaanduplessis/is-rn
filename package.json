@@ -31,10 +31,10 @@
     ]
   },
   "devDependencies": {
-    "jest": "^20.0.4",
+    "jest": "^21.2.1",
     "husky": "^0.14.3",
     "babel-preset-env": "^1.6.0",
-    "bili": "^0.17.3",
-    "prettier-standard": "^6.0.0"
+    "bili": "^0.18.1",
+    "prettier-standard": "^7.0.1"
   }
 }
