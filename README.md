@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/is-rn.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install is-rn
 # OR
